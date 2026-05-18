@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Remove disabled",
+  "version": "1.0",
+  "description": "右クリックメニューからページ内のすべてのdisabled属性を削除します。",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
